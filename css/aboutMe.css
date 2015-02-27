@@ -21,6 +21,9 @@ body{ background-color: #3D566E;
 #subtitle{font-size: 6vh;
 		margin-bottom: 10vh;}
 
+.actionLink, .actionLink:visited, .actionLink:active, .actionLink:link{color: #ECF0F1;}
+
+
 .actionButtons{font-size: 7vh;}
 
 .actionButtons:hover{color: #C0392B;}
