@@ -1,4 +1,6 @@
-
+.logo{width: 100%;
+	height:100%;
+	margin-top: 2em;}
 .date{margin-left:50%;
 		text-align: right;}
 .date1{margin-left:26%;
@@ -6,10 +8,10 @@
 .date2{text-align: right;
 		margin-left:31%;}
 
-#github{margin-left:80%;}
+#github{margin-left:1.4em;}
 
-#mail{margin-left: 140%}
-#name{margin-left:8%;}
+#mail{margin-left: 2.5em}
+#name{margin-left:8em;}
 
 body {font-family: PT Sans, arial}
 

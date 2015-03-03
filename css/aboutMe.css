@@ -5,6 +5,7 @@ img {width: 25em;
 
 img:hover{border: 3px solid  #C0392B;
 			z-index: 400;}
+			
 .desc{text-align: center;
 	  margin-top: 5%;
 		opacity: .33;}
