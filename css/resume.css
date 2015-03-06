@@ -1,9 +1,24 @@
 .logo{width: 150%;
 	height:150%;
 	margin-top: 2em;
-	border: 3px solid #ECF0F1}
+	border: 3px solid #ECF0F1;
+	box-shadow: 2px 2px 2px black}
 .logo:hover{
 	border: 3px solid #ECF0F1
+}
+
+@media screen and (max-width: 800px){
+	#logo2{display:none;}
+	.logo{width:100%;
+		height:100%;}
+	#github{margin-right:1.4em;}
+	#twitter{margin-bottom: .2em;}
+
+	#mail{margin-right: 2.5em}
+	.date{display:none;}
+.date1{display:none;}
+.date2{display:none;}
+
 }
 .date{margin-left:50%;
 		text-align: right;}
@@ -18,7 +33,8 @@
 #mail{margin-left: 2.5em}
 #name{margin-left:8em;}
 
-body {font-family: PT Sans, arial}
+body {font-family: PT Sans, arial;
+	text-shadow: 2px 2px 2px black;}
 
 #top{border-bottom: 2px solid #C24800;}
 #body{margin-top: 2%;
@@ -26,3 +42,4 @@ body {font-family: PT Sans, arial}
 
 #subtitle{font-style: italic;}
 #thisTitle{font-size: 15vh;}
+.spacer{margin-bottom: 10%;}

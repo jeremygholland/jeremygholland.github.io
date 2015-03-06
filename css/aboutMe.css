@@ -1,9 +1,14 @@
-img {width: 25em;
-	height: 15em;
+img {width: 30em;
+	height: 20em;
 	border: 3px solid #ECF0F1;
 	z-index: -1;}
+
+@media screen and (max-width: 1000px){img {width: 20em;
+	height: 15em;}
+	}	
 #underscore{border:.7em solid #ECF0F1;
-			border-radius: 2em;}
+			border-radius: 2em;
+			box-shadow: 2px 2px 2px black}
 
 img:hover{border: 3px solid  #C0392B;
 			z-index: 400;}
@@ -11,7 +16,7 @@ img:hover{border: 3px solid  #C0392B;
 .desc{text-align: center;
 	  margin-top: 5%;
 		opacity: .33;
-		text-indent: -4000px;}
+		}
 
 #name{font-family:effloresce}		
 .desc:hover{opacity: 1.0;
