@@ -8,7 +8,8 @@ img {width: 30em;
 	height: 15em;}
 	.desc{margin-left: 8%;
 		opacity:.5;}
-	.projDesc{text-align: 20}
+
+	.actionButtons{text-align: center}
 	}	
 #underscore{border:.7em solid #ECF0F1;
 			border-radius: 2em;
@@ -40,6 +41,7 @@ body{ background-color: #3D566E;
 .actionLink, .actionLink:visited, .actionLink:active, .actionLink:link{color: #ECF0F1;}
 
 
-.actionButtons{font-size: 3.5em;}
+.actionButtons{font-size: 3em;}
 
 .actionButtons:hover{color: #C0392B;}
+#myTitle{font-size: 3.3em}
