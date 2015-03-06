@@ -3,8 +3,11 @@ img {width: 30em;
 	border: 3px solid #ECF0F1;
 	z-index: -1;}
 
-@media screen and (max-width: 1000px){img {width: 20em;
+@media screen and (max-width: 1000px){
+	img {width: 20em;
 	height: 15em;}
+	.desc{margin-left: 8%;}
+	.projDesc{text-align: 20}
 	}	
 #underscore{border:.7em solid #ECF0F1;
 			border-radius: 2em;
