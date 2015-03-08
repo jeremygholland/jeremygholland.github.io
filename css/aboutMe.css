@@ -1,19 +1,18 @@
-img {width: 30em;
-	height: 20em;
+img {width: 40em;
+	height: 28em;
 	border: 3px solid #ECF0F1;
 	z-index: -1;}
 
 @media screen and (max-width: 750px){
 	img {width: 20em;
 	height: 15em;}
-	.desc{margin-left: 8%;
-		opacity:.5;}
+	.desc{opacity:.5;}
 
 	.actionButtons{text-align: center}
 	}	
 #underscore{border:.7em solid #ECF0F1;
 			border-radius: 2em;
-			box-shadow: 2px 2px 2px black}
+			box-shadow: 3px 3px 3px black}
 
 img:hover{border: 3px solid  #C0392B;
 			z-index: 400;}
