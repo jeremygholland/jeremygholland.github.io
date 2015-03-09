@@ -10,11 +10,9 @@ img {width: 40em;
 
 	.actionButtons{text-align: center}
 	}	
-#underscore{border:.7em solid #ECF0F1;
-			border-radius: 2em;
-			box-shadow: 3px 3px 3px black}
 
-img:hover{border: 3px solid  #C0392B;
+
+img:hover{
 			z-index: 400;}
 			
 .desc{text-align: center;
@@ -33,7 +31,10 @@ img:hover{border: 3px solid  #C0392B;
 body{ background-color: #3D566E;
 	color: #ECF0F1;}
 .top{text-align: center;
-	margin-bottom: 5%;}
+	margin-bottom: 2em;
+	margin-top: 2em;
+	border: 2px solid #ECF0F1;
+	box-shadow: 2px 2px 2px black;}
 #subtitle{font-size: 2em;
 		margin-bottom: 1em;}
 

@@ -15,26 +15,8 @@ $(document).ready(function(){
 		
 	});
 
-	var thisFunction = function(){
-if ($(window).width() >750){
-				var wow3 = ".wow pulse infinite";
-			var wow = ".wow fadeInRight";
-			var wow1 = ".wow fadeInLeft"; 
-			console.log($(window).width());
-			$('#first').removeClass(wow1);
-			$('#second').removeClass(wow);
-			$('#third').removeClass(wow1);
-			$('#fourth').removeClass(wow);
-			$('#first, #second, #third, #fourth').hover(function(){
-				$(this).addClass(wow3);
-			},function(){
-				$(this).removeClass(wow3);
-			})
-		};
-	}
 	$('#projects').click(function(){
 		 new WOW().init();
-		 thisFunction();
 		$('#projects').toggleClass('woo');
 		$('#resume').removeClass('woo');
 		$('#projectStuff').toggle('fast');
