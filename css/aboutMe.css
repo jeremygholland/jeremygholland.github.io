@@ -3,19 +3,18 @@ img {width: 40em;
 	border: 3px solid #ECF0F1;
 	z-index: -1;}
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 990px){
 	img {width: 20em;
 	height: 15em;}
 	.desc{opacity:.5;}
 
 	.actionButtons{text-align: center}
+	 .contact{margin-top: 5em;}
+	 .top{margin: 1.5em;
+		border:  #ECF0F1;}
+    #tweet{margin-right: 1em}	
 	}
-	.top{margin: 1.5em;
-		border:  #ECF0F1;
-		-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;}	
-}
+
 
 
 img:hover{
@@ -43,7 +42,8 @@ body{ background-color: #3D566E;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-	box-shadow: 2px 2px 2px black;}
+	box-shadow: 2px 2px 2px black;
+	border-radius: 1em}
 #subtitle{font-size: 2em;
 		margin-bottom: 1em;}
 #tweet{margin-left: 1em;}
@@ -55,8 +55,10 @@ body{ background-color: #3D566E;
 
 .actionButtons:hover{color: #C0392B;}
 #myTitle{font-size: 3.3em}
-.contact{margin-top: 10em;
+.contact{margin-top: 5em;
 		border: 2px solid #ECF0F1;
-		text-align: center}
+		text-align: center;
+		margin-bottom: 2em;
+		border-radius: 1em;}
 #contactText{margin-bottom: 1.5em;
 			margin-top: 1.5em;}
