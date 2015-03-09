@@ -9,7 +9,13 @@ img {width: 40em;
 	.desc{opacity:.5;}
 
 	.actionButtons{text-align: center}
-	}	
+	}
+	.top{margin: 1.5em;
+		border:  #ECF0F1;
+		-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}	
+}
 
 
 img:hover{
@@ -34,9 +40,13 @@ body{ background-color: #3D566E;
 	margin-bottom: 2em;
 	margin-top: 2em;
 	border: 2px solid #ECF0F1;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 	box-shadow: 2px 2px 2px black;}
 #subtitle{font-size: 2em;
 		margin-bottom: 1em;}
+#tweet{margin-left: 1em;}
 
 .actionLink, .actionLink:visited, .actionLink:active, .actionLink:link{color: #ECF0F1;}
 
@@ -45,3 +55,8 @@ body{ background-color: #3D566E;
 
 .actionButtons:hover{color: #C0392B;}
 #myTitle{font-size: 3.3em}
+.contact{margin-top: 5em;
+		border: 2px solid #ECF0F1;
+		text-align: center}
+#contactText{margin-bottom: 1.5em;
+			margin-top: 1.5em;}

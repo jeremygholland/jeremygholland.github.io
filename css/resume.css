@@ -18,8 +18,14 @@
 	.date{display:none;}
 .date1{display:none;}
 .date2{display:none;}
-
 }
+
+.resumeStuff{
+	background: fixed;
+	min-height: 750px;
+	height: 75%;
+	position: relative;}
+
 .date{margin-left:50%;
 		text-align: right;}
 .date1{margin-left:26%;
@@ -37,8 +43,6 @@ body {font-family: PT Sans, arial;
 	text-shadow: 2px 2px 2px black;}
 
 #top{border-bottom: 2px solid #C24800;}
-#body{margin-top: 2%;
-	text-align: center;}
 
 #subtitle{font-style: italic;}
 #thisTitle{font-size: 15vh;}
