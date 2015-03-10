@@ -11,6 +11,7 @@
         <link rel="author" href="humans.txt">
         <link rel="stylesheet" type="text/css" href="css/resume.css">
         <link rel="stylesheet" type="text/css" href="css/aboutMe.css">
+        <link rel="stylesheet" type="text/css" href="css/skillbar.css">
 
     </head>
     <body>
@@ -29,12 +30,12 @@
             </div>
 
             <div class="row">
-                <div class=" col-md-3 col-md-offset-3 text-center, col-xs-12 text-center">
+                <div class=" col-md-2 col-md-offset-3 text-center, col-xs-12 text-center">
                     <div>
                         <a href="#" class ="actionLink"><h3 id = "resume" class = "actionButtons"> Resume</h3></a>
                     </div>
                     </div>
-                <div class="col-md-3 , col-xs-12 text-center">
+                <div class="col-md-2 , col-xs-12 text-center">
                     
                 
                     <div>
@@ -42,40 +43,21 @@
 
                     </div>
                 </div>
+
+                <div class="col-md-2 , col-xs-12 text-center">
+                    
+                
+                    <div>
+                        <a href="#" class ="actionLink"><h3 id = "skillsBtn" class = "actionButtons"> Skills</h3></a>
+
+                    </div>
+                </div>
+
             </div>
             <div id="resumeStuff">
             <div class="row">
                 <div class="col-md-10 , col-xs-12">
-                    
                     <div class="text">
-                        <div class="skills, wow fadeInRight" data-wow-delay= ".25s">
-                            <ul><h1>Skills</h1>
-                    <ul>
-                        <h3>
-                            Frontend
-                        </h3>
-                            <ul>
-                                <p>
-                                HTML5, CSS, AngularJS, jQuery
-                                </p>
-                            </ul>
-                        <h3> Backend</h3>
-                        <ul>
-                            <p>
-                                Ruby, Firebase
-                            </p>
-                        </ul>
-                        <h3>
-                            Other
-                        </h3>
-                        <ul>
-                            <p>
-                                Git, OS X Server System Administration
-                            </p>    
-                        </ul>
-                    </ul>
-                    </ul>
-                        </div>
                         <div class="experience , wow fadeIn">
                         <ul><h1>Experience</h1>
                             <div class="wow fadeInLeft , textLang" data-wow-delay = ".25s">
@@ -161,7 +143,7 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 , col-xs-12 text-center">
                     <div class="desc">
-                        <div class="wow fadeInLeft" data-wow-delay= ".25s" id = "first"> 
+                        <div class="wow fadeInLeft" data-wow-delay= ".5s" id = "first"> 
                         <h3> JeremyGHolland blog</h3>
             <a href="https://github.com/jeremygholland/jeremyghollandBlog"><img src="images/blog.png" id = "blog" ></a>
                         <p class = "projDesc"> This is a blogging app which currently hosts my baseball related blog posts. This app allows visitors to view and comment on previous posts, and also allows admin users to add posts to the blog.  This blog utilizes AngularJS for its deep linking capabilities and uses AngularFire as it's backend database and authentication services.</p>
@@ -183,7 +165,7 @@
             <div class="row">
             <div class="col-md-6 col-md-offset-3 , col-xs-12 text-center">
                 <div class="desc">
-                    <div class="wow fadeInLeft" data-wow-delay = ".75s" id= "third">
+                    <div class="wow fadeInLeft" data-wow-delay = ".5s" id= "third">
 
                     <h3> AttackDogs</h3>
                 <a href="https://github.com/jeremygholland/AttackDogs"> <img src="images/attackDogs.png" id = "attackDogs"></a>
@@ -194,7 +176,7 @@
             <div class="col-md-offset-3"></div>
             <div class="col-md-6 col-md-offset-3 , col-xs-12 text-center">
                 <div class="desc" id = "santaStuff">
-                    <div class="wow fadeInRight" data-wow-delay = "1s" id = "fourth">
+                    <div class="wow fadeInRight" data-wow-delay = ".5s" id = "fourth">
                     <h3> Santa-Wish-List</h3>
                 <a href="https://github.com/jeremygholland/Santa-Wish-List"> <img src="images/santa.png" id="santa"></a>
                  <p class = "projDesc , botDesc"> My first foray using Angular, this app is my take on your basic MVC to-do list app. This seasonal app uses AngularJS and some UnderscoreJS to bring Christmas cheer to the user. </p>
@@ -231,6 +213,49 @@
                 </div>
             </div>
                 </div>
+
+            <div class="row">
+                <div id="skillsSection">
+                <div class="pure-g">
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <ul id="skill">
+                    <li><span class="bar graphic-design"></span><h3>HTML // CSS</li>
+                    <li><span class="bar html-css"></span><h3>Javascript</h3></li>
+                    <li><span class="bar jquery"></span><h3>jQuery</h3></li>
+                    <li><span class="bar wordpress"></span><h3>Angular</h3></li>
+                </ul>
+            </div>
+            </div>
+            
+        
+        <div class="contact , wow zoomIn">
+                <div class= "row">
+                    <h2 id = "contactText"> You can find me here!</h2>
+                   <div class="row" id= "body">
+                    <div class="col-md-10">
+                        <div class = "wow zoomIn" > 
+                    <div class="col-md-1 col-md-offset-3 text-center, col-xs-12 text-center">
+                        <i class="fa fa-github fa-2x" id ="github"></i>
+                        <a href="https://github.com/jeremygholland"><p class = "contactBtn">jeremygholland</p> </a>
+                    </div>
+                    <div class="col-md-1 col-md-offset-1 text-center, col-xs-12 text-center ">
+                        <i class="fa fa-phone-square fa-2x" id= "twitter"></i>
+                            <a href="tel:+1-512-769-8548"> <p class = "contactBtn">512.769.8548</p></a>
+                    </div>
+                    <div class="col-md-1 col-md-offset-1 text-center, col-xs-12  text-center ">
+                        <i class="fa fa-envelope fa-2x" id= "mail"></i>
+                       <a href=" mailto:jeremygholland@gmail.com"> <p class = "contactBtn"> jeremygholland@gmail.com</p></a>
+                    </div>
+                     <div class="col-md-1 col-md-offset-2 text-center, col-xs-12  text-center ">
+                        <i class="fa fa-twitter fa-2x" id= "tweet"></i>
+                       <a href="https://twitter.com/AngularAstro"> <p class = "contactBtn"> AngularAstro</p></a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
 
             <div class="row">
                 <div class = " botWoo , text-center">

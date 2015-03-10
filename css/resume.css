@@ -16,7 +16,8 @@
 		margin-bottom: 10%;
 		margin-left: auto}
 	#github{margin-right:1.4em;}
-	#twitter{margin-right: 1.2em}
+	#twitter{margin-right: 1.2em;
+			margin-top: .2em;}
 
 	#mail{margin-right: 2.5em}
 	.date{display:none;}
@@ -40,10 +41,12 @@
 		margin-left:31%;}
 
 #github{margin-left:1.4em;}
-#twitter{margin-left: 1.2em;}
+#twitter{margin-left: 1.2em;
+		margin-top: .05em;}
 
 #mail{margin-left: 2.5em}
 #name{margin-left:8em;}
+#body{margin-bottom:1.5em}
 
 body {font-family: PT Sans, arial;
 	text-shadow: 2px 2px 2px black;}
