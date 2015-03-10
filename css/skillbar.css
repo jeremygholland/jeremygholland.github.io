@@ -41,8 +41,8 @@
 
 .graphic-design {
     width:90%; 
-    -moz-animation:graphic-design 3s ease-in;
-    -webkit-animation:graphic-design 3s ease-in;
+    -moz-animation:graphic-design 3s ease-out;
+    -webkit-animation:graphic-design 3s ease-out;
     background-color:#E74C3C;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#E74C3C), to(#e06995));
     background-image: -webkit-linear-gradient(top, #E74C3C, #e06995);
@@ -53,9 +53,9 @@
 }
 
 .html-css {
-    width:80%;
-    -moz-animation:html-css 3s ease-in;
-    -webkit-animation:html-css 3s ease-in;
+    width:70%;
+    -moz-animation:html-css 3s ease-out;
+    -webkit-animation:html-css 3s ease-out;
     background-color: #D35400;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#D35400), to(#d9aa44));
     background-image: -webkit-linear-gradient(top, #D35400, #d9aa44);
@@ -66,9 +66,9 @@
 }
 
 .jquery {
-    width:65%;
-    -moz-animation:jquery 3s ease-in;
-    -webkit-animation:jquery 3s ease-in;
+    width:70%;
+    -moz-animation:jquery 3s ease-out;
+    -webkit-animation:jquery 3s ease-out;
     background-color: #2CC36B;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#2CC36B), to(#91ba52));
     background-image: -webkit-linear-gradient(top, #2CC36B, #91ba52);
@@ -79,9 +79,9 @@
 }
 
 .wordpress {
-    width:70%;
-    -moz-animation:wordpress 3s ease-in;
-    -webkit-animation:wordpress 3s ease-in;
+    width:75%;
+    -moz-animation:wordpress 3s ease-out;
+    -webkit-animation:wordpress 3s ease-out;
     background-color: #9B50BA;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#9B50BA), to(#5da3ba));
     background-image: -webkit-linear-gradient(top, #9B50BA, #5da3ba);
@@ -91,12 +91,12 @@
     background-image: linear-gradient(top, #9B50BA, #5da3ba)    
 }
 
-@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:80%;}  }
-@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:80%;}  }
-@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
-@-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:75%;}  }
 
 @-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:80%;}  }
-@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
-@-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:75%;}  }
