@@ -1,24 +1,28 @@
-.logo{width: 150%;
-	height:150%;
-	margin-top: 3em;
-	border: 3px solid #ECF0F1;
-	box-shadow: 2px 2px 2px black}
-.logo:hover{
-	border: 3px solid #ECF0F1
-}
+.logo{width: 215%;
+	height:215%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-top: 2em;
+	border: 2px solid #ECF0F1;
+	box-shadow: 2px 2px 2px black;
+	border-radius: 2em}
+.ProjTitle{font-size: 3em}
 
 @media screen and (max-width: 990px){
 	#logo2{display:none;}
+	.ProjTitle{font-size: 2em}
 	.logo{width:85%;
 		height: 85%;
 		margin-right: auto;
 		display:block;
 		margin-bottom: 10%;
 		margin-left: auto}
-	#github{margin-right:1.4em;}
+		#github{margin-right:1.4em;}
 	#twitter{margin-right: 1.2em;
 			margin-top: .2em;}
-
+	.spacer{display:none;}
+#santaStuff{margin-bottom: none}
 	#mail{margin-right: 2.5em}
 	.date{display:none;}
 .date1{display:none;}
@@ -35,7 +39,7 @@
 
 .date{margin-left:50%;
 		text-align: right;}
-.date1{margin-left:26%;
+.date1{margin-left:11em;
 		text-align: right}
 .date2{text-align: right;
 		margin-left:31%;}
@@ -49,10 +53,11 @@
 #body{margin-bottom:1.5em}
 
 body {font-family: PT Sans, arial;
+	font-weight: lighter;
 	text-shadow: 2px 2px 2px black;}
 
 #top{border-bottom: 2px solid #C24800;}
 
 #subtitle{font-style: italic;}
 #thisTitle{font-size: 15vh;}
-.spacer{margin-bottom: 10%;}
+.spacer{margin-bottom: 5em;}

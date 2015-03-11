@@ -1,4 +1,8 @@
 $(document).ready(function(){
+	if($(window).width() > 1700){
+		$('#logo2').removeClass(".col-md-offset-1");
+		$('#logo2').addClass(".col-md-offset-2");
+	}
 	$('#resumeStuff').hide();
 	$('#projectStuff').hide();
 	$('#skillsSection').hide();

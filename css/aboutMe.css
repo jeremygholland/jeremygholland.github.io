@@ -1,13 +1,17 @@
 img {width: 40em;
 	height: 28em;
-	border: 3px solid #ECF0F1;
-	z-index: -1;}
+	z-index: -1;
+	box-shadow: 2px 2px 2px black}
+
+@media screen and (min-width: 1300px){
+	
+}
 
 @media screen and (max-width: 990px){
 	img {width: 20em;
 	height: 15em;}
-	.desc{opacity:.5;}
-
+	.desc { opacity: 1.0}
+	.projDesc{font-size: 1em}
 	.actionButtons{text-align: center}
 	 .contact{margin-top: 5em;}
 	 .top{margin: 1.5em;
@@ -15,7 +19,7 @@ img {width: 40em;
     #tweet{margin-right: 1em}	
 	}
 
-
+#first{margin-top: 5em}
 img:hover{
 			z-index: 400;}
 			
@@ -27,7 +31,8 @@ img:hover{
 #name{font-family:effloresce}		
 .desc:hover{opacity: 1.0;
 			text-indent: 0px;}
-.projDesc{margin-top: 5%}
+.projDesc{margin-top: 5%;
+		font-size: 1.3em}
 #projDesc{margin-top: 16%;}
 .botDesc{margin-bottom: 5%;}
 #resumeStuff{margin-top: 5%;
@@ -46,6 +51,7 @@ body{ background-color: #3D566E;
 #subtitle{font-size: 2em;
 		margin-bottom: 1em;}
 #tweet{margin-left: 1em;}
+.skillsSection{text-align: center}
 
 .actionLink, .actionLink:visited, .actionLink:active, .actionLink:link{color: #ECF0F1;}
 .textLang{margin-bottom: 3em}
@@ -54,7 +60,7 @@ body{ background-color: #3D566E;
 
 .actionButtons:hover{color: #C0392B;}
 #myTitle{font-size: 4.5em;
-	font-family: 'MyWebFont', Fallback, PT Sans;}
+	font-family: Moderne Sans}
 .contact{
 		border: 2px solid #ECF0F1;
 		text-align: center;
@@ -65,6 +71,7 @@ body{ background-color: #3D566E;
 #contactText{margin-bottom: 1.5em;
 			margin-top: 1.5em;}
 .botWoo{margin-top: 5em;
+		margin-bottom: 5em;
 		color:#ECF0F1;
 		width: 100%;
 		height: 200%;
