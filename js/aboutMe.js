@@ -5,7 +5,6 @@ $(document).ready(function(){
 	}
 	$('#resumeStuff').hide();
 	$('#projectStuff').hide();
-	$('#skillsSection').hide();
 	$('#resume').click(function(){
 		 new WOW().init();
 		$('#resume').toggleClass('woo');
