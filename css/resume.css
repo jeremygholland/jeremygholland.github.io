@@ -10,10 +10,10 @@
 .ProjTitle{font-size: 3em}
 
 @media screen and (max-width: 990px){
-	#logo2{display:none;}
+	#logo{display:none;}
 	.ProjTitle{font-size: 2em}
-	.logo{width:85%;
-		height: 85%;
+	.logo{width:70%;
+		height: 70%;
 		margin-right: auto;
 		display:block;
 		margin-bottom: 10%;
