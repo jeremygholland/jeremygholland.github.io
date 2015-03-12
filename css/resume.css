@@ -18,6 +18,7 @@
 		display:block;
 		margin-bottom: 10%;
 		margin-left: auto}
+		#linked{margin-right: 1.5em}
 		#github{margin-right:1.4em;}
 	#twitter{margin-right: 1.2em;
 			margin-top: .2em;}
@@ -61,3 +62,4 @@ body {font-family: PT Sans, arial;
 #subtitle{font-style: italic;}
 #thisTitle{font-size: 15vh;}
 .spacer{margin-bottom: 5em;}
+#linked{margin-left: 1.4em;}
