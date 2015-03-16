@@ -10,6 +10,7 @@ img {width: 40em;
 @media screen and (max-width: 990px){
 	img {width: 20em;
 	height: 15em;}
+	.mobileNah {display:none;}
 	.desc { opacity: 1.0}
 	.projDesc{font-size: 1em}
 	.actionButtons{text-align: center}
