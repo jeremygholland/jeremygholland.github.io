@@ -19,7 +19,12 @@ img {width: 40em;
 		border:  #ECF0F1;}
     #tweet{margin-right: 1em}	
 	}
-
+.titleTrack{text-align: center;
+			color:#C0392B;
+			font-style: italic;
+			font-size: 4em;
+			margin-top: .8em;
+			margin-bottom: .8em}
 #first{margin-top: 5em}
 img:hover{
 			z-index: 400;}
@@ -36,8 +41,6 @@ img:hover{
 		font-size: 1.3em}
 #projDesc{margin-top: 16%;}
 .botDesc{margin-bottom: 5%;}
-#resumeStuff{margin-top: 5%;
-			margin-bottom: 5%}
 body{ background-color: #3D566E;
 	color: #ECF0F1;}
 .top{text-align: center;

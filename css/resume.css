@@ -2,7 +2,6 @@
 	height:215%;
 	margin-right: auto;
 	margin-left: auto;
-	display: block;
 	margin-top: 2em;
 	border: 2px solid #ECF0F1;
 	box-shadow: 2px 2px 2px black;
@@ -30,20 +29,13 @@
 .date2{display:none;}
 }
 
-#resumeStuff{
-	background: 50% 50% / cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	min-height: 750px;
-	transform-style: inherit;
-	position: relative;}
 
 .date{margin-left:50%;
 		text-align: right;}
-.date1{margin-left:11em;
+.date1{margin-left:14.5em;
 		text-align: right}
 .date2{text-align: right;
-		margin-left:31%;}
+		margin-left:16em;}
 
 #github{margin-left:1.4em;}
 #twitter{margin-left: 1.2em;
