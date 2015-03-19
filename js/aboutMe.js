@@ -3,10 +3,14 @@ $(document).ready(function(){
 		$('#logo2').removeClass(".col-md-offset-1");
 		$('#logo2').addClass(".col-md-offset-2");
 	}
+	$('#one').addClass("letsTry");
 	$('#resumeStuff').hide();
 	$('#projectStuff').hide();
 	$('#resume').click(function(){
 		 new WOW().init();
+		 $('#three').addClass("letsTry");
+		 $('#two').removeClass("letsTry");
+		 $('#one').removeClass("letsTry");
 		$('#resume').toggleClass('woo');
 		$('#projects').removeClass('woo');
 		$('#skillsBtn').removeClass('woo');
@@ -25,6 +29,9 @@ $(document).ready(function(){
 
 	$('#projects').click(function(){
 		 new WOW().init();
+		 $('#two').addClass("letsTry");
+		 $('#one').removeClass("letsTry");
+		 $('#three').removeClass("letsTry");
 		$('#projects').toggleClass('woo');
 		$('#resume').removeClass('woo');
 		$('#skillsBtn').removeClass('woo');
@@ -41,6 +48,9 @@ $(document).ready(function(){
 	})
 	$('#skillsBtn').click(function(){
 		 new WOW().init();
+		 $('#one').addClass("letsTry");
+		 $('#two').removeClass("letsTry");
+		 $('#three').removeClass("letsTry");
 		 $('#skillsBtn').toggleClass('woo');
 		 $('#projects').removeClass('woo');
 		 $('#resume').removeClass('woo');
