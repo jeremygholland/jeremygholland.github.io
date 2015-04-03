@@ -1,48 +1,106 @@
-img {width: 40em;
+img {
+	width: 40em;
 	height: 28em;
 	z-index: -1;
-	box-shadow: 2px 2px 2px black}
-@media screen and (min-width: 1300px){	
+	box-shadow: 2px 2px 2px black
 }
-.charStuff{margin-left: 4em}
-.letsTry {display:none;}
+
+
+.charStuff{
+margin-left: 4em
+}
+
+.letsTry {
+	display:none;
+}
+
 @media screen and (max-width: 990px){
-	img {width: 20em;
-	height: 15em;}
-	.mobileNah {display:none;}
-	.desc { opacity: 1.0}
-	.projDesc{font-size: 1em}
-	.actionButtons{text-align: center}
-	 .contact{margin-top: 5em;}
-	 .top{margin: 1.5em;
-		border:  #ECF0F1;}
-    #tweet{margin-right: 1em}	
+
+	img {
+		width: 20em;
+		height: 15em;
 	}
-.titleTrack{text-align: center;
-			color:#C0392B;
-			font-style: italic;
-			font-size: 4em;
-			margin-top: .8em;
-			margin-bottom: .8em}
-#first{margin-top: 5em}
+
+.mobileNah {
+	display:none;
+}
+
+.desc {
+	opacity: 1.0
+}
+
+.projDesc{
+	font-size: 1em
+}
+
+.actionButtons{
+	text-align: center
+}
+	 
+.contact{
+	 margin-top: 5em;
+	}
+	
+.top{
+	margin: 1.5em;
+	border:  #ECF0F1;
+}
+
+#tweet{
+    	margin-right: 1em}	
+	}
+
+.titleTrack{
+	text-align: center;
+	color:#C0392B;
+	font-style: italic;
+	font-size: 4em;
+	margin-top: .8em;
+	margin-bottom: .8em
+}
+
+#first{
+	margin-top: 5em
+}
+
 img:hover{
-			z-index: 400;}
+	z-index: 400;
+	}
 			
-.desc{text-align: center;
-	  margin-top: 5%;
-		opacity: .33;
+.desc{
+	text-align: center;
+	margin-top: 5%;
+	opacity: .33;
 		}
 
-#name{font-family:effloresce}		
-.desc:hover{opacity: 1.0;
-			text-indent: 0px;}
-.projDesc{margin-top: 5%;
-		font-size: 1.3em}
-#projDesc{margin-top: 16%;}
-.botDesc{margin-bottom: 5%;}
-body{ background-color: #3D566E;
-	color: #ECF0F1;}
-.top{text-align: center;
+#name{
+	font-family:effloresce
+}		
+
+.desc:hover{
+	opacity: 1.0;
+			text-indent: 0px;
+		}
+
+.projDesc{
+	margin-top: 5%;
+	font-size: 1.3em
+	}
+
+#projDesc{
+	margin-top: 16%;
+}
+.botDesc{
+	margin-bottom: 5%;
+}
+
+body{ 
+	background-color: #3D566E;
+	color: #ECF0F1;
+}
+
+.top{
+	text-align: center;
 	margin-bottom: 2em;
 	margin-top: 2em;
 	border: 2px solid #ECF0F1;
@@ -50,36 +108,69 @@ body{ background-color: #3D566E;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 	box-shadow: 2px 2px 2px black;
-	border-radius: 1em}
-#subtitle{font-size: 2em;
-		margin-bottom: 1em;}
-#tweet{margin-left: 1em;}
-.skillsSection{text-align: center}
+	border-radius: 1em
+}
 
-.actionLink, .actionLink:visited, .actionLink:active, .actionLink:link{color: #ECF0F1;}
-.textLang{margin-bottom: 3em}
+#subtitle{
+	font-size: 2em;
+	margin-bottom: 1em;
+}
 
-.actionButtons{font-size: 3em;}
+#tweet{
+	margin-left: 1em;
+}
 
-.actionButtons:hover{color: #C0392B;}
-#myTitle{font-size: 4.5em;
-	font-family: Moderne Sans}
+.skillsSection{
+	text-align: center
+}
+
+.actionLink, .actionLink:visited, .actionLink:active, .actionLink:link{
+	color: #ECF0F1;
+}
+
+.textLang{
+	margin-bottom: 3em
+}
+
+.actionButtons{
+	font-size: 3em;
+}
+
+.actionButtons:hover{
+	color: #C0392B;
+}
+
+#myTitle{
+	font-size: 4.5em;
+	font-family: Moderne Sans
+}
+
 .contact{
 		border: 2px solid #ECF0F1;
 		text-align: center;
 		margin-bottom: 2em;
 		border-radius: 1em;
-		box-shadow: 2px 2px 2px black}
+		box-shadow: 2px 2px 2px black
+	}
 
-#contactText{margin-bottom: 1.5em;
-			margin-top: 1.5em;}
-.botWoo{margin-top: 5em;
+#contactText{
+	margin-bottom: 1.5em;
+			margin-top: 1.5em;
+		}
+
+.botWoo{
+	margin-top: 5em;
 		margin-bottom: 5em;
 		color:#ECF0F1;
 		width: 100%;
 		height: 200%;
-		border-radius: 1em}
-#santaStuff{margin-bottom: 5em}
+		border-radius: 1em
+	}
+
+#santaStuff{
+	margin-bottom: 5em
+}
+
 #wooProgress{
 	 width:100%;
 	 height: 3em;
