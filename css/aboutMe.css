@@ -1,8 +1,9 @@
 img {
-	width: 40em;
-	height: 28em;
+	width: 35em;
+	height: 25em;
 	z-index: -1;
-	box-shadow: 2px 2px 2px black
+	box-shadow: 2px 2px 2px black;
+	margin-right: 30em;
 }
 
 
