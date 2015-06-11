@@ -1,0 +1,131 @@
+.logo{
+	width: 215%;
+	height:215%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2em;
+	border: 2px solid #ECF0F1;
+	box-shadow: 2px 2px 2px black;
+	border-radius: 2em
+}
+
+.ProjTitle{
+	font-size: 3em
+}
+
+@media screen and (max-width: 990px){
+	#logo{
+		display:none;
+	}
+
+	.ProjTitle{
+		font-size: 2em
+	}
+
+	.logo{
+		width:70%;
+		height: 70%;
+		margin-right: auto;
+		display:block;
+		margin-bottom: 10%;
+		margin-left: auto
+	}
+
+	#linked{
+		margin-right: 1.5em
+	}
+
+	#github{
+		margin-right:1.4em;
+	}
+
+	#twitter{
+		margin-right: 1.2em;
+		margin-top: .2em;
+	}
+	.spacer{
+		display:none;
+	}
+
+#santaStuff{
+	margin-bottom: none
+	}
+
+	#mail{
+	margin-right: 2.5em
+	}
+
+	.date{
+	display:none;
+	}
+
+	.date1{
+	display:none;
+	}
+	.date2{
+	display:none;
+	}
+}
+
+
+.date{
+	margin-left:50%;
+	text-align: right;
+}
+
+.date1{
+	margin-left:14.5em;
+	text-align: right
+}
+
+.date2{
+	text-align: right;
+	margin-left:16em;
+}
+
+#github{
+	margin-left:1.4em;
+}
+
+#twitter{
+	margin-left: 1.2em;
+		margin-top: .05em;
+}
+
+#mail{
+	margin-left: 2.5em
+}
+
+#name{
+	margin-left:8em;
+}
+
+#body{
+	margin-bottom:1.5em
+}
+
+body {
+	font-family: open Sans, arial;
+	font-weight: lighter;
+	text-shadow: 2px 2px 2px black;
+}
+
+#top{
+	border-bottom: 2px solid #C24800;
+}
+
+#subtitle{
+	font-style: italic;
+}
+
+#thisTitle{
+	font-size: 15vh;
+}
+
+.spacer{
+	margin-bottom: 5em;
+}
+
+#linked{
+	margin-left: 1.4em;
+}
