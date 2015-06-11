@@ -114,9 +114,12 @@ body{max-height:100vh;}
 .resStuff,  .projects, .button{
 	color: white;
 	text-shadow: 2px 2px 2px black;
-	max-height: 100vh;
-	overflow: auto;
 }
+.viewStuff{
+	margin-left: 5vw;
+}
+
+.marvel{margin-bottom: 2vh;}
 
 .projDesc {
 	font-size: 1.2em
