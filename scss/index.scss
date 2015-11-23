@@ -179,7 +179,7 @@ body{
 
 }
 }
-@media screen and (max-width: 780px){
+@media screen and (max-width: 780px) and (min-width: 481px){
 	.containRight{
 		justify-content: center;
 	}
