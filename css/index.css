@@ -20,7 +20,10 @@ body {
     align-items: center; }
   .containLeft .secondLeft {
     max-height: 150px;
-    height: 15%; }
+    height: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
   .containLeft .thirdLeft {
     max-height: 250px;
     height: 25%;
@@ -42,18 +45,19 @@ body {
   max-height: 1000px;
   height: 120vh; }
   .containRight .firstRight {
+    border-bottom: 2px solid white;
     max-height: 500px;
     height: 50%;
-    overflow: scroll;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; }
+    overflow: scroll; }
     .containRight .firstRight h1 {
       width: 80%;
       margin: 0 auto; }
     .containRight .firstRight .imgCard {
       width: 100%;
-      height: 45%; }
+      height: 45%;
+      margin-bottom: 10%; }
+    .containRight .firstRight .img1 {
+      margin-top: 5%; }
   .containRight .resumeCard {
     max-height: 500px;
     height: 49%;

@@ -24,6 +24,9 @@ body {
     .secondLeft {
     	max-height: 150px;
         height: 15%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
     }
     .thirdLeft {
     	max-height: 250px;
@@ -49,19 +52,22 @@ body {
     max-height: 1000px;
     height: 120vh;
     .firstRight{
+    	border-bottom: 2px solid white;
     	h1{
     		width: 80%;
     		margin: 0 auto;
     	}
+
     	max-height: 500px;
     	height: 50%;
     	overflow: scroll;
-    	display: flex;
-        flex-wrap: wrap;
-        align-items: center;
         .imgCard{
         	width: 100%;
         	height: 45%;
+        	margin-bottom: 10%;
+        }
+        .img1{
+        	margin-top: 5%;
         }
     }
     .resumeCard{
