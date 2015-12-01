@@ -14,17 +14,21 @@ body {
   width: 35%; }
   .containLeft .firstLeft {
     height: 40%;
+    max-height: 400px;
     display: flex;
     flex-wrap: wrap;
     align-items: center; }
   .containLeft .secondLeft {
+    max-height: 150px;
     height: 15%; }
   .containLeft .thirdLeft {
+    max-height: 250px;
     height: 25%;
     display: flex;
     flex-wrap: wrap;
     align-items: center; }
   .containLeft .fourthLeft {
+    max-height: 200px;
     height: 20%;
     display: flex;
     flex-wrap: wrap;
@@ -38,19 +42,24 @@ body {
   max-height: 1000px;
   height: 120vh; }
   .containRight .firstRight {
-    height: 50%;
     max-height: 500px;
+    height: 50%;
     overflow: scroll;
     display: flex;
     flex-wrap: wrap;
     align-items: center; }
+    .containRight .firstRight h1 {
+      width: 80%;
+      margin: 0 auto; }
     .containRight .firstRight .imgCard {
       width: 100%;
       height: 45%; }
   .containRight .resumeCard {
-    height: 50%;
     max-height: 500px;
+    height: 49%;
     overflow: scroll; }
+  .containRight .resumeCard::-webkit-scrollbar-button {
+    color: white; }
   .containRight .card-content {
     background-color: black;
     color: white; }
