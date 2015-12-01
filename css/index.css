@@ -1,27 +1,59 @@
 body {
   background-color: #FBE9E7; }
 
-#firstImg {
-  margin-left: 2%; }
-
-#mePic {
-  padding: none; }
-
-#lastImg {
-  margin-right: 2%; }
-
-.containRight {
-  width: 100%;
-  display: inline-flex;
-  background-color: black;
+.totalFlex {
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
+
+.containLeft {
+  display: flex;
+  flex-wrap: wrap;
+  height: 120vh;
+  max-height: 1000px;
+  width: 35%; }
+  .containLeft .firstLeft {
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+  .containLeft .secondLeft {
+    height: 15%; }
+  .containLeft .thirdLeft {
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+  .containLeft .fourthLeft {
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+
+.containRight {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  max-height: 1000px;
+  height: 120vh; }
+  .containRight .firstRight {
+    height: 50%;
+    max-height: 500px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+    .containRight .firstRight .imgCard {
+      width: 100%;
+      height: 45%; }
+  .containRight .resumeCard {
+    height: 50%;
+    max-height: 500px;
+    overflow: scroll; }
   .containRight .card-content {
     background-color: black;
     color: white; }
-  .containRight .titleProj {
-    width: 100%;
-    margin: 25px; }
   .containRight h1 {
     font-weight: 100;
     margin: 0 auto;
@@ -53,7 +85,10 @@ body {
 .skillSet {
   word-spacing: 4px; }
 
-.aboutMe, .skillSet, .contact, .skillSet {
+.aboutMe,
+.skillSet,
+.contact,
+.skillSet {
   margin: 0 auto;
   background-color: #e74c3c;
   border-top: 2px solid white;
@@ -63,29 +98,17 @@ body {
 #projTitle {
   font-weight: 200; }
 
-.containLeft {
-  padding: none; }
-
 .imgFlexContain {
-  width: 100%; }
-
-.imgCard {
-  width: 30%;
-  padding-bottom: 50px; }
+  width: 50%;
+  margin: 0 auto; }
+  .imgFlexContain .modalImg {
+    max-height: 30vh;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto; }
 
 #modal1 {
   color: black; }
-
-.modalImg {
-  height: 200px;
-  max-height: 250px;
-  width: auto;
-  max-width: 100%; }
-
-.modal-footer a {
-  cursor: pointer; }
-.modal-footer .leftModalBtn {
-  margin-right: 20%; }
 
 .resumeCard {
   background-color: black;
@@ -108,91 +131,11 @@ body {
     padding: none;
     border-bottom: none; }
 
-@media screen and (max-width: 480px) {
-  .imgCard {
-    position: relative;
-    width: 100%; }
+@media screen and (max-width: 400px) {
+  .containLeft, .containRight {
+    width: 100%; } }
+@media screen and (max-width: 780px) {
+  .containLeft, .containRight {
+    width: 100%; } }
 
-  .modalImg {
-    width: 95%;
-    display: block;
-    margin: 0 auto;
-    margin-top: 25px; }
-
-  #firstImg {
-    margin-left: none; }
-
-  #lastImg {
-    margin-right: none;
-    margin-bottom: 20px; }
-
-  .titleProj {
-    display: block;
-    margin: 0 auto; }
-
-  .resumeCard {
-    background-color: black;
-    color: black; }
-    .resumeCard h1 {
-      font-weight: 100;
-      color: white;
-      display: block;
-      margin: 0 auto; }
-    .resumeCard h5 {
-      font-weight: 200; }
-    .resumeCard .textLang {
-      background-color: black;
-      color: white;
-      border-bottom: 2px solid white;
-      margin-bottom: 5px;
-      padding-bottom: 45px;
-      padding-top: 20px; }
-    .resumeCard #finalRes {
-      padding: none;
-      border-bottom: none; } }
-@media screen and (max-width: 780px) and (min-width: 481px) {
-  .containRight {
-    justify-content: center; }
-
-  .imgCard {
-    position: relative;
-    width: 45%; }
-
-  .modalImg {
-    width: 95%;
-    display: block;
-    margin: 0 auto;
-    margin-top: 25px; }
-
-  #firstImg {
-    margin-left: none; }
-
-  #lastImg {
-    margin-right: none;
-    margin-bottom: 20px; }
-
-  .titleProj {
-    display: block;
-    margin: 0 auto; }
-
-  .resumeCard {
-    background-color: black;
-    color: black; }
-    .resumeCard h1 {
-      font-weight: 100;
-      color: white;
-      display: block;
-      margin: 0 auto; }
-    .resumeCard h5 {
-      font-weight: 200; }
-    .resumeCard .textLang {
-      background-color: black;
-      color: white;
-      border-bottom: 2px solid white;
-      margin-bottom: 5px;
-      padding-bottom: 45px;
-      padding-top: 20px; }
-    .resumeCard #finalRes {
-      padding: none;
-      border-bottom: none; } }
-
+/*# sourceMappingURL=index.css.map */

@@ -15,47 +15,44 @@
 
 <body>
     <div class="container">
-        <div class="row">
-            <div class="containLeft">
-                <div>
-                    <div class="card">
-                        <div class="mePic">
-                            <div class="card-content white-text">
-                                <img src="img/jeremygholland.png" alt="" class=" responsive-img">
-                                <span class="card-title">Jeremy Holland</span>
-                                <p>Front End Web Developer</p>
-                            </div>
-                            <div class="contact">
-                                <div class="card-content white-text">
-                                    <ul class="fa-ul">
-                                        <li><i class="fa-li fa fa-phone-square fa"></i><a href="tel:15127698548">512.769.8548</a></li>
-                                        <li><i class="fa-li fa-envelope fa"></i> <a href="mailto:jeremygholland@gmail.com"> jeremygholland@gmail.com</a></li>
-                                        <li><i class="fa-li fa-github fa"></i> <a href="https://github.com/jeremygholland"> jeremygholland</a></li>
-                                        <li><i class="fa-li fa-linkedin-square fa"> </i> <a href="https://www.linkedin.com/in/jeremy-holland-b3026597"> Jeremy Holland</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="aboutMe">
-                                <div class="card-content text-white">
-                                    <p class="left-align"> I am a front end web developer. I primarily work in Angular, though I am versed in both jQuery and Meteor.js. I put an emphasis on material design and love using preprocessors such as Sass. </p>
-                                </div>
-                            </div>
-                            <div class="skillSet">
-                                <div class="card-content">
-                                    <h3>Skills</h3>
-                                    <p> HTML, CSS, Sass, Javascript, jQuery, AngularJS, MeteorJS, HTML Emails, Git</p>
-                                </div>
-                            </div>
-                        </div>
+        <div class="row totalFlex">
+            <div class="card containLeft">
+                <div class="mePic firstLeft">
+                    <div class="card-content white-text">
+                        <img src="img/jeremygholland.png" alt="" class=" responsive-img">
+                        <span class="card-title">Jeremy Holland</span>
+                        <p>Front End Web Developer</p>
+                    </div>
+                </div>
+                <div class="contact secondLeft">
+                    <div class="card-content white-text">
+                        <ul class="fa-ul">
+                            <li><i class="fa-li fa fa-phone-square fa"></i><a href="tel:15127698548">512.769.8548</a></li>
+                            <li><i class="fa-li fa-envelope fa"></i> <a href="mailto:jeremygholland@gmail.com"> jeremygholland@gmail.com</a></li>
+                            <li><i class="fa-li fa-github fa"></i> <a href="https://github.com/jeremygholland"> jeremygholland</a></li>
+                            <li><i class="fa-li fa-linkedin-square fa"> </i> <a href="https://www.linkedin.com/in/jeremy-holland-b3026597"> Jeremy Holland</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="aboutMe thirdLeft">
+                    <div class="card-content text-white">
+                        <p class="left-align"> I am a front end web developer. I primarily work in Angular, though I am versed in both jQuery and Meteor.js. I put an emphasis on material design and love using preprocessors such as Sass. </p>
+                    </div>
+                </div>
+                <div class="skillSet fourthLeft">
+                    <div class="card-content">
+                        <h3>Skills</h3>
+                        <p> HTML, CSS, Sass, Javascript, jQuery, AngularJS, MeteorJS, HTML Emails, Git</p>
                     </div>
                 </div>
             </div>
-            <div class="containRight">
-                <div class="titleProj">
-                <h1> Projects</h1>
-                </div>
-                    <div class="imgCard" id = "firstImg">
-                        <div class = "imgFlexContain">
+            <div class="containRight card">
+                <div class="containModals firstRight">
+                    <div class="titleProj">
+                        <h1> Projects</h1>
+                    </div>
+                    <div class="imgCard">
+                        <div class="imgFlexContain">
                             <a class="waves-effect waves-light trigger2" href="#modal1"><img src="img/govtracks.png" alt="" class="modalImg"></a>
                             <!-- Modal Structure -->
                             <div id="modal1" class="modal">
@@ -70,14 +67,14 @@
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="https://github.com/jeremygholland/govTracks" class="waves-effect waves-teal btn-flat"class = "leftModalBtn">View on Github</a>
+                                    <a href="https://github.com/jeremygholland/govTracks" class="waves-effect waves-teal btn-flat" class="leftModalBtn">View on Github</a>
                                     <a href="http://govtracks.meteor.com/" class="waves-effect waves-teal btn-flat"> View Demo</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                     <div class="imgCard">
-                        <div class = "imgFlexContain">
+                    <div class="imgCard">
+                        <div class="imgFlexContain">
                             <a class="waves-effect waves-light trigger3" href="#modal3"><img src="img/concertSteam.png" alt="" class="modalImg"></a>
                             <!-- Modal Structure -->
                             <div id="modal3" class="modal">
@@ -92,14 +89,14 @@
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="https://github.com/jeremygholland/concertSteam" class="waves-effect waves-teal btn-flat"class = "leftModalBtn">View on Github</a>
+                                    <a href="https://github.com/jeremygholland/concertSteam" class="waves-effect waves-teal btn-flat" class="leftModalBtn">View on Github</a>
                                     <a href="http://jeremygholland.github.io/concertSteam/" class="waves-effect waves-teal btn-flat"> View Demo</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="imgCard" id = "lastImg">
-                        <div class = "imgFlexContain">
+                    <div class="imgCard" id="lastImg">
+                        <div class="imgFlexContain">
                             <a class="waves-effect waves-light trigger1" href="#modal2"><img src="img/blog.png" alt="" class="modalImg"></a>
                             <!-- Modal Structure -->
                             <div id="modal2" class="modal">
@@ -119,42 +116,44 @@
                             </div>
                         </div>
                     </div>
-            </div>
-            <div class="card resumeCard bot">
-                <div class="card-content">
-                   <ul>
-                    <h1 class = "text-center"> Resume</h1>
+                </div>
+
+
+                <div class="card resumeCard">
+                    <div class="card-content">
+                        <ul>
+                            <h1 class="text-center"> Resume</h1>
                             <div class=" textLang text-center">
-                            <ul>
-                                <h3>Apple, Inc.</h3>
-                                <h5> <i>iTunes Provider Support Advisor </i></h5>
-                                <h5>August 2011 – Present</h5> <br>
-                                    <p class = "projDesc"> Chosen to be a part of the inaugural iBookstore Publisher Support team. Provided superior support to third-party content providers using the iOS and Mac OS X Platforms. Contributed to training efforts of newly hired team members. Ranked highly amongst peers in productivity throughout my time in this position. Effectively managed email and phone queues resulting in consistently high levels of partner satisfaction. </p>
-                            </ul>
+                                <ul>
+                                    <h3>Apple, Inc.</h3>
+                                    <h5> <i>iTunes Provider Support Advisor </i></h5>
+                                    <h5>August 2011 – Present</h5>
+                                    <br>
+                                    <p class="projDesc"> Chosen to be a part of the inaugural iBookstore Publisher Support team. Provided superior support to third-party content providers using the iOS and Mac OS X Platforms. Contributed to training efforts of newly hired team members. Ranked highly amongst peers in productivity throughout my time in this position. Effectively managed email and phone queues resulting in consistently high levels of partner satisfaction. </p>
+                                </ul>
                             </div>
-
-                             <div class=" textLang resStuff text-center z-depth-1">
-                            <ul>
-                                <h3>Telicon</h3>
+                            <div class=" textLang resStuff text-center z-depth-1">
+                                <ul>
+                                    <h3>Telicon</h3>
                                     <h5> <i>Legislative Reporter </i></h5>
-                                    <h5>December 2010 – July 2011</h5> <br>
-                                    <p class = "projDesc">Documented record votes from the floor of the Texas Senate. Transferred amendments from the Senate Floor to Telicon's website in real time. Produced detailed committee reports. Managed coverage of hearings on the senate floor for 7 other reporters. Researched and organized Telicon’s legislative directory. Edited reports written by senate reporters.</p>
-                            </ul>
-                             </div>
-
-                              <div class=" textLang text-center z-depth-1" id = "finalRes">
-                            <ul>
-                                <h3>Chris Turner Campaign</h3>
+                                    <h5>December 2010 – July 2011</h5>
+                                    <br>
+                                    <p class="projDesc">Documented record votes from the floor of the Texas Senate. Transferred amendments from the Senate Floor to Telicon's website in real time. Produced detailed committee reports. Managed coverage of hearings on the senate floor for 7 other reporters. Researched and organized Telicon’s legislative directory. Edited reports written by senate reporters.</p>
+                                </ul>
+                            </div>
+                            <div class=" textLang text-center z-depth-1" id="finalRes">
+                                <ul>
+                                    <h3>Chris Turner Campaign</h3>
                                     <h5> <i>Financial Director </i></h5>
-                                    <h5>August 2010 – November 2010</h5> <br>
-                                    <p class = "projDesc">Researched financial contributions from Political Action Committees to other campaigns throughout Texas during the previous five cycles. Organized detailed reports aiding in fundraising efforts. Supervised sensitive projects undertaken by volunteers.</p>
-                            </ul>
-
-                             </div>
+                                    <h5>August 2010 – November 2010</h5>
+                                    <br>
+                                    <p class="projDesc">Researched financial contributions from Political Action Committees to other campaigns throughout Texas during the previous five cycles. Organized detailed reports aiding in fundraising efforts. Supervised sensitive projects undertaken by volunteers.</p>
+                                </ul>
+                            </div>
                         </ul>
+                    </div>
                 </div>
             </div>
-            
         </div>
     </div>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
