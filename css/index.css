@@ -151,6 +151,10 @@ body {
     height: 100%;
     max-height: none; } }
 @media screen and (max-width: 780px) {
+  .imgFlexContain {
+    width: 90%;
+    margin: 0 auto; }
+
   .leftSection, .rightSection {
     width: 100%; }
 
