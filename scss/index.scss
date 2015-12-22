@@ -16,10 +16,16 @@ body {
     width: 30%;
     background-color: #ef5350;
     .leftSpacers{
+      color: white;
+      width: 100%;
       border-bottom: 4px solid white;
       div{
         width: 90%;
         margin: 0 auto;
+
+      }
+      a{
+        color:#90caf9
       }
     }
 }
@@ -117,8 +123,7 @@ max-height: 1200px;
   background-color: black;
 }
 .resumeImg{
-  height: 100%;
-  width: 100%;
+  width: 125%;
 }
 
 

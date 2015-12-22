@@ -14,10 +14,14 @@ body {
   width: 30%;
   background-color: #ef5350; }
   .leftSection .leftSpacers {
+    color: white;
+    width: 100%;
     border-bottom: 4px solid white; }
     .leftSection .leftSpacers div {
       width: 90%;
       margin: 0 auto; }
+    .leftSection .leftSpacers a {
+      color: #90caf9; }
 
 .rightSection {
   background-color: black;
@@ -91,8 +95,7 @@ body {
   background-color: black; }
 
 .resumeImg {
-  height: 100%;
-  width: 100%; }
+  width: 125%; }
 
 .imgFlexContain {
   width: 70%;
