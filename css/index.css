@@ -11,31 +11,13 @@ body {
   flex-wrap: wrap;
   height: 150vh;
   max-height: 1200px;
-  width: 30%; }
-  .leftSection .firstLeft {
-    height: 40%;
-    max-height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; }
-  .leftSection .secondLeft {
-    max-height: 150px;
-    height: 15%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; }
-  .leftSection .thirdLeft {
-    max-height: 250px;
-    height: 25%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; }
-  .leftSection .fourthLeft {
-    max-height: 200px;
-    height: 20%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; }
+  width: 30%;
+  background-color: #ef5350; }
+  .leftSection .leftSpacers {
+    border-bottom: 4px solid white; }
+    .leftSection .leftSpacers div {
+      width: 90%;
+      margin: 0 auto; }
 
 .rightSection {
   background-color: black;
@@ -145,33 +127,59 @@ body {
     padding: none;
     border-bottom: none; }
 
-@media screen and (max-width: 400px) {
-  .containLeft, .containRight {
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .leftSection, .rightSection {
     width: 100%;
     height: 100%;
-    max-height: none; } }
-@media screen and (max-width: 780px) {
+    max-height: none; }
+
+  .imgCard {
+    margin-bottom: 1vh; } }
+@media screen and (min-width: 481px) and (max-width: 780px) {
   .imgFlexContain {
     width: 90%;
     margin: 0 auto; }
-
-  .leftSection, .rightSection {
-    width: 100%; }
 
   .firstLeft {
     width: 100%;
     margin: 0 auto; }
 
   .firstRight {
-    justify-content: space-between;
+    justify-content: space-around;
     overflow: scroll; }
     .firstRight h1 {
       width: 80%;
       margin: 0 auto; }
     .firstRight .imgCard {
       display: block;
-      margin-bottom: 5vh;
       width: 100%;
-      height: 100%; } }
+      height: 100%;
+      margin-bottom: -10vh; } }
+@media screen and (max-width: 1199px) and (min-width: 781px) {
+  .imgFlexContain {
+    width: 80%;
+    margin: 0 auto; }
+
+  .leftSection {
+    width: 35%; }
+
+  .rightSection {
+    width: 60%; }
+
+  .firstLeft {
+    width: 100%;
+    margin: 0 auto; }
+
+  .firstRight {
+    justify-content: space-around;
+    overflow: scroll; }
+    .firstRight h1 {
+      width: 80%;
+      margin: 0 auto; }
+    .firstRight .imgCard {
+      display: block;
+      width: 100%;
+      height: 100%;
+      margin-bottom: -10vh; } }
 
 /*# sourceMappingURL=index.css.map */
