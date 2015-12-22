@@ -1,0 +1,220 @@
+body {
+    background-color: #FBE9E7;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.leftSection {
+    display: flex;
+    flex-wrap: wrap;
+    height: 150vh;
+    max-height: 1200px;
+    width: 30%;
+    .firstLeft {
+        height: 40%;
+        max-height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .secondLeft {
+    	max-height: 150px;
+        height: 15%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .thirdLeft {
+    	max-height: 250px;
+        height: 25%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .fourthLeft {
+    	max-height: 200px;
+        height: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+.rightSection {
+	background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+max-height: 1200px;
+    height: 150vh;
+
+    .firstRight{
+    	h1{
+    		width: 80%;
+    		margin: 0 auto;
+    	}
+
+    	max-height: 1500px;
+    	height: 100%;
+    	overflow: scroll;
+        .imgCard{
+        	width: 100%;
+        	height: 45%;
+        }
+        .img1{
+        	margin-top: 5%;
+        }
+    }
+    .resumeCard::-webkit-scrollbar-button {
+    	color: white;
+    }
+
+    .card-content {
+        background-color: black;
+        color: white;
+    }
+    h1 {
+        font-weight: 100;
+        margin: 0 auto;
+        color: white;
+    }
+}
+
+.mePic {
+    p {
+        font-weight: 100;
+        font-size: 1.2em;
+    }
+    width: 100%;
+    background-color: #e74c3c;
+    .card {
+        background-color: #e74c3c;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+        max-height: 30vh;
+        width: auto;
+    }
+}
+
+.contact {
+    border-top: 2px solid white;
+    i {
+        color: #f1c40f
+    }
+    a {
+        color: white;
+    }
+    a:hover {
+        color: #2980b9
+    }
+}
+
+.skillSet {
+    word-spacing: 4px;
+}
+
+.aboutMe,
+.skillSet,
+.contact,
+.skillSet {
+    margin: 0 auto;
+    background-color: #e74c3c;
+    border-top: 2px solid white;
+    color: white;
+    flex: 1 1 auto;
+}
+
+#projTitle {
+    font-weight: 200;
+}
+#modal5{
+  background-color: black;
+}
+.resumeImg{
+  height: 100%;
+  width: 100%;
+}
+
+
+.imgFlexContain {
+	width: 70%;
+	margin: 0 auto;
+
+.modalImg {
+    max-height: 30vh;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+}
+
+
+#modal1 {
+    color: black;
+}
+
+
+
+.resumeCard {
+    background-color: black;
+    h1 {
+        font-weight: 100;
+        color: white;
+        display: block;
+        margin: 0 auto;
+    }
+    color: black;
+    h5 {
+        font-weight: 200;
+    }
+    .textLang {
+        background-color: black;
+        color: white;
+        border-bottom: 2px solid white;
+        margin-bottom: 5px;
+        padding-bottom: 45px;
+        padding-top: 20px;
+    }
+    #finalRes {
+        padding: none;
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 400px){
+	.containLeft, .containRight{
+		width: 100%;
+		height: 100%;
+		max-height: none;
+	}
+
+}
+@media screen and (max-width: 780px){
+	.leftSection, .rightSection{
+		width: 100%;
+	}
+	.firstLeft{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.firstRight{
+		justify-content: space-between;
+    overflow: scroll;
+    h1{
+      width: 80%;
+      margin: 0 auto;
+    }
+        .imgCard{
+        	display: block;
+        	margin-bottom: 5vh;
+        	width: 100%;
+        	height: 100%;
+        }
+    }
+}
