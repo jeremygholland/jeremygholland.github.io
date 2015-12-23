@@ -172,7 +172,7 @@ max-height: 1200px;
     }
 }
 
-@media screen and (max-width: 480px) and (min-width: 320px){
+@media screen and (max-width: 519px) and (min-width: 320px){
 	.leftSection, .rightSection{
 		width: 100%;
 		height: 100%;
@@ -184,7 +184,7 @@ max-height: 1200px;
 
 }
 
-@media screen and (min-width: 481px) and (max-width: 780px){
+@media screen and (min-width: 520px) and (max-width: 780px){
   .imgFlexContain {
   	width: 90%;
   	margin: 0 auto;
@@ -207,7 +207,12 @@ max-height: 1200px;
           margin-bottom: -10vh;
         }
     }
-
+  .leftSection{
+    width: 38%;
+  }
+  .rightSection{
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 1199px) and (min-width: 781px){
