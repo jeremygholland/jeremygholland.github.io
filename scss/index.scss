@@ -3,19 +3,34 @@ body {
     overflow-x: hidden;
 overflow-y: scroll;
 }
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 12px;
   background: #fbe9e7;
   color: white;
   }
 
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background-color: #424242 ;
   outline: 1px solid #fbe9e7;
 }
-::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button{
+body::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button{
   display: none;
 }
+
+.firstRight::-webkit-scrollbar {
+  width: 12px;
+  background: #fbe9e7;
+  color: white;
+  }
+
+body::-webkit-scrollbar-thumb {
+  background-color: #424242 ;
+  outline: 1px solid #fbe9e7;
+}
+body::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button{
+  display: none;
+}
+
 .container{
 	display: flex;
 	flex-wrap: wrap;
@@ -204,19 +219,7 @@ max-height: 1200px;
 		height: 100%;
 		max-height: none;
 	}
-  ::-webkit-scrollbar {
-    width: 12px;
-    background: #fbe9e7;
-    color: white;
-    }
 
-  ::-webkit-scrollbar-thumb {
-    background-color: #424242 ;
-    outline: 1px solid #fbe9e7;
-  }
-  ::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button{
-    display: none;
-  }
   .imgCard{
     margin-bottom: 1vh;
   }
@@ -255,19 +258,6 @@ max-height: 1200px;
   .rightSection{
     width: 60%;
   }
-  ::-webkit-scrollbar {
-    width: 12px;
-    background: #fbe9e7;
-    color: white;
-    }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: #424242 ;
-    outline: 1px solid #fbe9e7;
-  }
-  ::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button{
-    display: none;
-  }
 }
 
 @media screen and (max-width: 1199px) and (min-width: 781px){
@@ -286,19 +276,7 @@ max-height: 1200px;
 		width: 100%;
 		margin: 0 auto;
 	}
-  ::-webkit-scrollbar {
-    width: 12px;
-    background: #fbe9e7;
-    color: white;
-    }
 
-  ::-webkit-scrollbar-thumb {
-    background-color: #424242 ;
-    outline: 1px solid #fbe9e7;
-  }
-  ::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button{
-    display: none;
-  }
 	.firstRight{
 		justify-content: space-around;
     overflow-y: scroll;

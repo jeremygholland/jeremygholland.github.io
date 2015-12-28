@@ -3,16 +3,28 @@ body {
   overflow-x: hidden;
   overflow-y: scroll; }
 
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 12px;
   background: #fbe9e7;
   color: white; }
 
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background-color: #424242;
   outline: 1px solid #fbe9e7; }
 
-::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button {
+body::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button {
+  display: none; }
+
+.firstRight::-webkit-scrollbar {
+  width: 12px;
+  background: #fbe9e7;
+  color: white; }
+
+body::-webkit-scrollbar-thumb {
+  background-color: #424242;
+  outline: 1px solid #fbe9e7; }
+
+body::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button {
   display: none; }
 
 .container {
@@ -161,18 +173,6 @@ body {
     height: 100%;
     max-height: none; }
 
-  ::-webkit-scrollbar {
-    width: 12px;
-    background: #fbe9e7;
-    color: white; }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: #424242;
-    outline: 1px solid #fbe9e7; }
-
-  ::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button {
-    display: none; }
-
   .imgCard {
     margin-bottom: 1vh; } }
 @media screen and (min-width: 520px) and (max-width: 780px) {
@@ -201,19 +201,7 @@ body {
     width: 38%; }
 
   .rightSection {
-    width: 60%; }
-
-  ::-webkit-scrollbar {
-    width: 12px;
-    background: #fbe9e7;
-    color: white; }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: #424242;
-    outline: 1px solid #fbe9e7; }
-
-  ::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button {
-    display: none; } }
+    width: 60%; } }
 @media screen and (max-width: 1199px) and (min-width: 781px) {
   .imgFlexContain {
     width: 80%;
@@ -228,18 +216,6 @@ body {
   .firstLeft {
     width: 100%;
     margin: 0 auto; }
-
-  ::-webkit-scrollbar {
-    width: 12px;
-    background: #fbe9e7;
-    color: white; }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: #424242;
-    outline: 1px solid #fbe9e7; }
-
-  ::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button {
-    display: none; }
 
   .firstRight {
     justify-content: space-around;
