@@ -6,11 +6,13 @@ body {
 body::-webkit-scrollbar {
   width: 12px;
   background: #fbe9e7;
-  color: white; }
+  color: white;
+  border-radius: 2em; }
 
 body::-webkit-scrollbar-thumb {
   background-color: #424242;
-  outline: 1px solid #fbe9e7; }
+  outline: 1px solid #fbe9e7;
+  border-radius: 2em; }
 
 body::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button {
   display: none; }
