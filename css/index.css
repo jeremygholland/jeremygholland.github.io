@@ -3,30 +3,16 @@ body {
   overflow-x: hidden;
   overflow-y: scroll; }
 
-body::-webkit-scrollbar {
-  width: 12px;
-  background: #fbe9e7;
-  color: white;
-  border-radius: 2em; }
-
-body::-webkit-scrollbar-thumb {
-  background-color: #424242;
-  outline: 1px solid #fbe9e7;
-  border-radius: 2em; }
-
-body::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button {
-  display: none; }
-
-.firstRight::-webkit-scrollbar {
-  width: 12px;
+::-webkit-scrollbar {
+  width: 10px;
   background: #fbe9e7;
   color: white; }
 
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: #424242;
   outline: 1px solid #fbe9e7; }
 
-body::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button {
+::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button {
   display: none; }
 
 .container {
@@ -174,6 +160,18 @@ body::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button {
     width: 100%;
     height: 100%;
     max-height: none; }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+    background: #fbe9e7;
+    color: white; }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #424242;
+    outline: 1px solid #fbe9e7; }
+
+  ::-webkit-scrollbar-corner, ::-webkit-resizer, ::-webkit-scrollbar-button {
+    display: none; }
 
   .imgCard {
     margin-bottom: 1vh; } }
