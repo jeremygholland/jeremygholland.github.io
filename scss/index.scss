@@ -161,7 +161,7 @@ max-height: 1200px;
 	margin: 0 auto;
 
 .modalImg {
-    max-height: 30vh;
+    max-height: 100vh;
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
@@ -224,13 +224,10 @@ max-height: 1200px;
     margin: 0 auto;
   }
   .imgCard{
-      display: block;
-      width: 100%;
-      height: 20vh;
-      padding-left: 10vw;
-      padding-right: 10vw;
-      margin-bottom: 5vh;
-    }
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 10vh;
+  }
 
 }
 
@@ -284,6 +281,7 @@ max-height: 1200px;
       height: 100%;
       margin-bottom: 5vh;
     }
+
 }
 
 @media screen and (max-width: 1199px) and (min-width: 781px){
