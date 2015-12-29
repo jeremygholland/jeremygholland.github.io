@@ -20,9 +20,17 @@ span{
   display: none;
 }
 .container{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 .titleProj{
   margin-bottom: 10vh;
@@ -31,8 +39,13 @@ span{
   margin-bottom: - 10vh;
 }
 .leftSection {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     height: 150vh;
     max-height: 1200px;
     width: 30%;
@@ -54,8 +67,13 @@ span{
 
 .rightSection {
 	background-color: black;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     width: 68%;
 max-height: 1200px;
     height: 150vh;
@@ -132,7 +150,10 @@ max-height: 1200px;
     background-color: #e74c3c;
     border-top: 2px solid white;
     color: white;
-    flex: 1 1 auto;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
 }
 
 #projTitle {
@@ -243,7 +264,9 @@ max-height: 1200px;
 
 
 	.firstRight{
-		justify-content: space-around;
+		-webkit-justify-content: space-around;
+		    -ms-flex-pack: distribute;
+		        justify-content: space-around;
     overflow-y: scroll;
     overflow-x:hidden;
     h1{
@@ -302,7 +325,9 @@ max-height: 1200px;
 	}
 
 	.firstRight{
-		justify-content: space-around;
+		-webkit-justify-content: space-around;
+		    -ms-flex-pack: distribute;
+		        justify-content: space-around;
     overflow-y: scroll;
     h1{
       width: 80%;
