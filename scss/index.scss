@@ -1,5 +1,5 @@
 body {
-    background-color: #FBE9E7;
+    background-color: #0d47a1;
     overflow-x: hidden;
 overflow-y: scroll;
 }
@@ -33,6 +33,8 @@ span{
 	        justify-content: space-between;
 }
 .titleProj{
+  display: flex;
+  justify-content: center;
   margin-bottom: 10vh;
 }
 .imgCard{
@@ -49,24 +51,31 @@ span{
     height: 150vh;
     max-height: 1200px;
     width: 30%;
-    background-color: #ef5350;
+    background-color: #64b5f6;
+    .leftTop{
+      border-bottom: 4px solid white;
+    }
     .leftSpacers{
       color: white;
       width: 100%;
       border-bottom: 4px solid white;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
       div{
         width: 90%;
         margin: 0 auto;
 
       }
       a{
-        color:#90caf9
+        color:#1565c0
       }
     }
 }
 
 .rightSection {
-	background-color: black;
+	background-color: #64b5f6;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -74,13 +83,14 @@ span{
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
+          justify-content: space-between;
     width: 68%;
 max-height: 1200px;
     height: 150vh;
 
     .firstRight{
     	h1{
-    		width: 80%;
+    		width: 100%;
     		margin: 0 auto;
     	}
 
@@ -160,9 +170,9 @@ max-height: 1200px;
     font-weight: 200;
 }
 .modal{
-  background-color: #FBE9E7;
+  background-color: #e3f2fd;
   a, .modal-footer{
-    background-color: #FBE9E7;
+    background-color: #e3f2fd;
   }
   #workXP{
     font-weight: 100;
