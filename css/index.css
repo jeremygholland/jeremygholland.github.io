@@ -65,7 +65,7 @@ span {
       width: 90%;
       margin: 0 auto; }
     .leftSection .leftSpacers a {
-      color: #1565c0; }
+      color: #FFFFFF; }
 
 .rightSection {
   background-color: #64b5f6;
@@ -114,14 +114,12 @@ span {
     max-height: 30vh;
     width: auto; }
 
-.contact {
-  border-top: 2px solid white; }
-  .contact i {
-    color: #f1c40f; }
-  .contact a {
-    color: white; }
-  .contact a:hover {
-    color: #2980b9; }
+.contact i {
+  color: #f1c40f; }
+.contact a {
+  color: white; }
+.contact a:hover, .contact a:active, .contact a:link {
+  color: #FFFFFF; }
 
 .skillSet {
   word-spacing: 4px; }
@@ -131,8 +129,6 @@ span {
 .contact,
 .skillSet {
   margin: 0 auto;
-  background-color: #e74c3c;
-  border-top: 2px solid white;
   color: white;
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 auto;
